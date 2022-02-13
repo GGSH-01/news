@@ -41,7 +41,7 @@
                 <!-- <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Delete news</a> -->
                 <input type="submit" name="button" class="btn btn-secondary btn-lg active" value="Delete news">
             </div>
-            <input type="hidden" type="text" id="form-newsNumber" name="newsNumber"  value=""> <!-- скрыто -->
+            <input type="hidden" type="text" id="form-newsNumber" name="newsNumber"  value=""> <!-- hidden -->
         </form>
     </div>
 </body>

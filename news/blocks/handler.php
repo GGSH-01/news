@@ -37,10 +37,6 @@ if(isset($_POST["button"])){
     }
 }
 
-// echo '<pre>';
-// print_r($_POST);
-// // echo $newsNumber;
-// echo '</pre>';
 
 ?>
 
