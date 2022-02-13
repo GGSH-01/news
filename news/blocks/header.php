@@ -9,7 +9,7 @@
     <header>
         <div id="logo">
             <a href="/">
-                <span>N</span>ews editor
+                <span class="redText">N</span>ews editor
             </a>
         </div>
         <div id="menuHead">
@@ -20,9 +20,7 @@
                 <div>Feedback</div>
             </a>
         </div>
-        <div id="registrationHead">
-        <!-- <a href="registration.php">Registration</a> | <a href="authorization.php">Autorization</a> -->
-        </div>
+        
     </header>
     <div class='clear'></div>
 </body>

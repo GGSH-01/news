@@ -20,14 +20,12 @@ if(isset($_POST["button"])){
             if(!empty($_POST["status"])){
                 $sql .= " status = '". $_POST['status'] ."'";
             }
-            
             if(substr($sql, -1) == ","){               //remove the character "," if it is the last in the request
                 $sql = substr($sql, 0, -1);
             }
 
             $sql .= " WHERE id = ". $_POST['newsNumber'];
             mysqli_query($link, $sql);
-            
         }
     }elseif($_POST["button"] == 'Delete news'){         //delete button
         if(!empty($_POST["newsNumber"])){
