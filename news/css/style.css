@@ -1,0 +1,104 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 242, 238);
+    color: black;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+    float: left;
+}
+
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(131, 15, 0);
+}
+
+.clear{
+    clear: both;
+}
+
+/* styles for header */
+
+header {
+    width: 100%;
+    float: left;
+    padding: 1%;
+    background-color: rgb(210, 214, 216);
+    border-bottom: 2px solid rgb(197, 197, 197);
+}
+
+header #logo {
+    width: 20%;
+    float: left;
+
+}
+header #logo a {
+    color: rgb(61, 61, 61);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+header #logo span {
+    color: rgb(177, 0, 0);
+}
+
+header #menuHead {
+    width: 40%;
+    float: left;
+}
+
+header #menuHead div {
+    float: left;
+    margin-right: 5%;
+    color: black;
+}
+
+header #registrationHead {
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+header #registrationHead a {
+    
+    color: black;
+}
+
+/* styles for menu */
+
+#menu{
+    margin-top: 1%;
+}
+
+.button{
+    /* margin-top: 1%; */
+    margin-bottom: 1%;
+    display: inline-block; 
+   	width: 33%;
+    text-align: center;
+}
+
+#about{
+    margin-left: 20%;
+    width: 60%;
+    text-align: left;
+
+}
+
+
+
